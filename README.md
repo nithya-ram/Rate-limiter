@@ -4,11 +4,19 @@
 
 **5 req/min per user** 
 
-## Run
-```
-go run main.go
-```
+## How to Run
+1. Install Go dependencies:
+   ```bash
+   go mod tidy
+   ```
+2. Run the project:
+   ```bash
+   go run main.go
+   ```
 
+3. Server will run on:
+   ```bash
+   http://localhost:8080
 ## Test
 ```bash
 # Request
